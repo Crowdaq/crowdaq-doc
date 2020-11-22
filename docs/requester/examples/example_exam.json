@@ -1,0 +1,251 @@
+{
+    "$schema": "https://schema.crowdaq.com/exam.json",
+    "instruction_id": "covid_quantity_extraction",
+    "tutorial_id": "covid_quantity_extraction",
+    "exam_id": "covid_quantity_extraction",
+    "question_set":[
+        {
+            "type": "multiple-choice",
+            "question_id": "1",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "More than 60 % of coronavirus deaths in Washington state are linked to long-term care facilities ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                    "A": "60",
+                    "B": "60 %",
+                    "C": "More than 60 %",
+                    "D": "More than 60 % of coronavirus deaths"
+                }
+            },
+            "answer": "B"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "2",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "`` Until 10 days ago , the total number of additional shelter beds added in Seattle and King County was zero , '' Eisinger said ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "10",
+                  "B": "zero",
+                  "C": "I will label both \"10\" and \"zero\""
+                }
+            },
+            "answer": "B"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "3",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Due to the closure of public buildings , at least 1,000 bathrooms are now inaccessible ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "1,000",
+                  "B": "at least 1,000",
+                  "C": "at least 1,000 bathrooms"
+                }
+            },
+            "answer": "A"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "4",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Its daily case total has ranged between 71 and a high of 117 -- also Tuesday ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "daily case total",
+                  "B": "71",
+                  "C": "117",
+                  "D": "I will label the whole phrase of \"between 71 and a high of 117\"",
+                  "E": "I will label both \"71\" and \"117\" separately"
+                }
+            },
+            "answer": "E"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "5",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Owen 's first surgery on Oct. 15 removed most of a brain tumor , but surgeons decided they could n't risk removal of a fragment , Brayton said ."
+                    }
+                ],
+                "question_text": "Is \"15\" a correct quantity?",
+                "options": {
+                  "A": "Yes, it is.",
+                  "B": "No, it's not."
+                }
+            },
+            "answer": "B"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "6",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Nordstrom will close 16 stores , restructure to cut expenses Seattle-based Nordstrom announced the permanent closure of 16 full-line stores as the company grapples with the economic impact of coronavirus closures ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "I will label \"16 stores\" and \"16 full-line stores\"",
+                  "B": "I will only label the \"16\" in both \"16 stores\" and \"16 full-line stores\""
+                }
+            },
+            "answer": "B"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "7",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Another cost-saving measure includes a restructuring of the corporate organization and support roles , estimated to save about $ 150 million in expenses ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "150",
+                  "B": "150 million",
+                  "C": "$ 150 million",
+                  "D": "about $ 150 million"
+                }
+            },
+            "answer": "B"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "8",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Under the governor 's reopening plan , camping will be restored for small groups during phase 2 , which is tentatively set to go into effect June 1 ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "2",
+                  "B": "1",
+                  "C": "Both \"2\" and \"1\"",
+                  "D": "There're no quantities in this sentence."
+                }
+            },
+            "answer": "D"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "9",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Renton police Chief Ed VanValey told the council there had been a 79 percent increase in calls from the hotel 's location -- sometimes 9 to 12 calls in a single day , and Renton Regional Fire Authority Chief Rick Marshall told the council the fire department fielded 30 calls in the last month ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "79, 12, 30",
+                  "B": "79 percent, 9, 12, 30",
+                  "C": "79 percent, 9 to 12, 30"
+                }
+            },
+            "answer": "C"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "10",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Renton has one of the highest rates of COVID-19 infections in the county , higher than Seattle 's at 505 cases per 100,000 residents , according to data from King County ."
+                    }
+                ],
+                "question_text": "Which one of the following is the correct quantity or quantities to label in this sentence?",
+                "options": {
+                  "A": "19",
+                  "B": "19, 505",
+                  "C": "505, 100,000",
+                  "D": "505 cases per 100,000",
+                  "E": "505 cases per 100,000 residents"
+                }
+            },
+            "answer": "C"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "11",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "Renton has a COVID-19 infection today."
+                    }
+                ],
+                "question_text": "Is \"a\" in \"a COVID-19 infection\" a valid quantity?",
+                "options": {
+                  "A": "Yes",
+                  "B": "No"
+                }
+            },
+            "answer": "A"
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "12",
+            "question": {
+                "context": [
+                    {
+                    "type": "html",
+                    "label": "Assume you read this text",
+                    "html": "A total of 224,813 people in Washington have been tested for coronavirus ."
+                    }
+                ],
+                "question_text": "Is \"A\" in \"A total of\" a valid quantity?",
+                "options": {
+                  "A": "Yes",
+                  "B": "No"
+                }
+            },
+            "answer": "B"
+        }
+    ]
+}

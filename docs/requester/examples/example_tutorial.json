@@ -1,0 +1,141 @@
+{
+    "instruction_id": "QuantityLabeling",
+    "tutorial_id": "QuantityLabeling",
+    "question_set": [
+        {
+            "type": "multiple-choice",
+            "question_id": "1",
+            "question": {
+                "question_text": "Which one of the following is NOT a quantity?",
+                "options": {
+                    "A": "The entire phrase: \"3 people\"",
+                    "B": "\"3\" in \"3 people\"",
+                    "C": "\"eight\" in \"eight new confirmed cases\"",
+                    "D": "The entire phrase: \"8 percent\""
+                }
+            },
+            "answer": "A",
+            "explanation": {
+                "A": "Only the \"3\" in \"3 people\" is the quantity, so \"3 people\" itself is wrong. All other options are correct quantities.",
+                "B": "Only the \"3\" in \"3 people\" is the quantity, so \"3 people\" itself is wrong. All other options are correct quantities.",
+                "C": "Only the \"3\" in \"3 people\" is the quantity, so \"3 people\" itself is wrong. All other options are correct quantities.",
+                "D": "Remember to include \"percent\", so \"8 percent\" is a correct quantity and the only wrong option is (A)."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "2",
+            "question": {
+                "question_text": "Which one of the following is NOT a quantity?",
+                "options": {
+                    "A": "\"3\" in \"3 people\"",
+                    "B": "\"3\" in \"3 days\"",
+                    "C": "\"eight\" in \"eight deaths\"",
+                    "D": "\"8\" in \"8 companies\""
+                }
+            },
+            "answer": "B",
+            "explanation": {
+                "A": "\"3 days\" is a time duration and not a quantity. All others are correct quantities.",
+                "B": "\"3 days\" is a time duration and not a quantity. All others are correct quantities.",
+                "C": "\"3 days\" is a time duration and not a quantity. All others are correct quantities.",
+                "D": "\"3 days\" is a time duration and not a quantity. All others are correct quantities."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "3",
+            "question": {
+                "question_text": "Which one of the following is a CORRECT quantity?",
+                "options": {
+                    "A": "\"8 companies\"",
+                    "B": "\"5\" in \"Chanel No. 5\"",
+                    "C": "\"1\" in \"1st death in California\"",
+                    "D": "\"4 million\" in \"$4 million\""
+                }
+            },
+            "answer": "D",
+            "explanation": {
+                "A": "Only \"8\" in \"8 companies\" is a quantity and \"8 companies\" as a whole is not.",
+                "B": "\"Chanel No. 5\" is an entity like \"COVID-19\" and the numbers in these entity names are not quantities.",
+                "C": "\"1st\" is an ordinal number and quantities are not ordinal numbers.",
+                "D": "\"4 million\" is a quantity. Note \"$4 million\" is NOT (i.e., should not include the dollar sign)."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "4",
+            "question": {
+                "question_text": "Which one of the following is a CORRECT quantity?",
+                "options": {
+                    "A": "\"two\" in \"two days\"",
+                    "B": "\"two days\"",
+                    "C": "The entire phrase: \"200 per 1,000\"",
+                    "D": "The entire phrase: \"7 percent\""
+                }
+            },
+            "answer": "D",
+            "explanation": {
+                "A": "Both \"two\" and \"two days\" are not quantities.",
+                "B": "Both \"two\" and \"two days\" are not quantities.",
+                "C": "You should select \"200\" and \"1000\" individually instead of the entire phrase.",
+                "D": "\"7 percent\" is correct."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "5",
+            "question": {
+                "question_text": "Which one of the following is NOT a quantity?",
+                "options": {
+                    "A": "\"4\" in \"More than 4 boxes\"",
+                    "B": "The entire phrase: \"More than 4 boxes\"",
+                    "C": "\"1000\" in \"4 deaths per 1000\"",
+                    "D": "\"four\" in \"More than four boxes\""
+                }
+            },
+            "answer": "B",
+            "explanation": {
+                "A": "The correct quantity is \"4\". \"More than\" is showing whether this quantity is an exact number of an approximate number. We'll ask for this information in other questions in the annotation task, but it's not the quantity itself. All other options are CORRECT quantities.",
+                "B": "The correct quantity is \"4\". \"More than\" is showing whether this quantity is an exact number of an approximate number. We'll ask for this information in other questions in the annotation task, but it's not the quantity itself. All other options are CORRECT quantities.",
+                "C": "Remember both \"4\" and \"1000\" are correct quantities.",
+                "D": "The correct quantity is \"four\". \"More than\" is showing whether this quantity is an exact number of an approximate number. We'll ask for this information in other questions in the annotation task, but it's not the quantity itself. All other options are CORRECT quantities."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "6",
+            "question": {
+                "question_text": "Which one of the following is a correct quantity?",
+                "options": {
+                    "A": "\"a\" in \"a flagship event\"",
+                    "B": "\"a\" in \"a total of 10 people\"",
+                    "C": "\"a\" in \"a significant economic impact\""
+                }
+            },
+            "answer": "A",
+            "explanation": {
+                "A": "This is correct. Here \"a\" means the number \"1\".",
+                "B": "This is wrong. Here \"total\" is uncountable and the article \"a\" before it is a special usage. One tip for judging whether \"a\" is a quantity is to replace it by other numbers. For instance, replacing \"a\" by \"two\" (i.e., \"two total of 10 people\") is very weird, so \"a\" is NOT a quantity.",
+                "C": "This is wrong. Here \"impact\" is uncountable and the article \"a\" before it is a special usage. One tip for judging whether \"a\" is a quantity is to replace it by other numbers. For instance, replacing \"a\" by \"two\" (i.e., \"two significant economic impacts\") is very weird, so \"a\" is NOT a quantity."
+            }
+        },
+        {
+            "type": "multiple-choice",
+            "question_id": "7",
+            "question": {
+                "question_text": "In \"experts have predicted that there might be 10K-20K people dying of flu this year.\", what quantities should you label?",
+                "options": {
+                    "A": "\"10K-20K\"",
+                    "B": "\"10K\" and \"20K\""
+                }
+            },
+            "answer": "A",
+            "explanation": {
+                "A": "This is correct. Here \"10K-20K\" altogether is an estimate of a quantity.",
+                "B": "This is wrong. Here \"10K-20K\" altogether is an estimate of a quantity and you shouldn't split them."
+            }
+        }
+    ],
+    "$schema": "https://schema.crowdaq.com/tutorial.json#"
+}
